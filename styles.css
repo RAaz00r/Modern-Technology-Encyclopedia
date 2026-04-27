@@ -84,12 +84,65 @@ nav .dropdown-links a {
 }
 
 
-.page-title {
-    width: 100%;
-    margin: 0;
-    padding-top: 10px;
-}
-
 main {
     padding: 16px;
+}
+
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.main-nav a, .main-nav summary {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.main-nav details {
+    position: relative;
+}
+
+.main-nav details summary {
+    list-style: none;
+}
+
+.main-nav .dropdown-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+    min-width: 180px;
+    z-index: 10;
+}
+
+.main-nav details[open] .dropdown-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-nav .dropdown-links a {
+    margin: 4px 0;
+}
+
+
+.login-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.login-nav a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-weight: 500;
 }
