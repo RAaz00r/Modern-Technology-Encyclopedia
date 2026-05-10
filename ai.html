@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,7 @@
             <img src="logo-projet.jpg" alt="Logo Encyclopédie des technologies modernes" width="100" height="100">
             <div>
                 <h1>Intelligence Artificielle</h1>
+                <p>Article de l'Encyclopédie des technologies modernes</p>
             </div>
         </div>
         <nav class="main-nav">
@@ -31,69 +32,66 @@
             <a class="login" href="login.html">Connexion</a>
         </nav>
     </header>
+
     <main>
-        <section>
-            <h2>Qu'est-ce que l'Intelligence Artificielle ?</h2>
-            <p>L'Intelligence Artificielle (IA) est une branche de l'informatique qui vise à créer des machines capables de simuler l'intelligence humaine. Elle permet aux ordinateurs d'apprendre, de raisonner, de résoudre des problèmes et de prendre des décisions de manière autonome.</p>
+        <section class="page-intro">
+            <div>
+                <h2>Définition</h2>
+                <p class="lead">L'intelligence artificielle désigne l'ensemble des techniques qui permettent à une machine d'analyser des données, d'apprendre, de reconnaître des formes et d'aider à la prise de décision.</p>
+                <p>Elle ne remplace pas simplement une action humaine : elle automatise des tâches complexes comme la traduction, le diagnostic assisté, la recommandation de contenus, la détection de fraudes ou la conduite autonome.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80" alt="Réseau neuronal représenté sous forme numérique">
+                <figcaption>Les modèles d'IA apprennent à partir d'exemples pour produire des prédictions ou des décisions.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Types d'Intelligence Artificielle</h2>
-            <h3>IA Faible (ANI - Artificial Narrow Intelligence)</h3>
-            <p>L'IA faible est conçue pour effectuer des tâches spécifiques. Elle excelle dans un domaine limité mais ne peut pas généraliser ses connaissances. Exemples : Siri, Alexa, les moteurs de recommandation.</p>
-
-            <h3>IA Forte (AGI - Artificial General Intelligence)</h3>
-            <p>L'IA forte serait capable de comprendre, d'apprendre et d'appliquer ses connaissances dans n'importe quel domaine, comme le ferait un être humain. Elle n'existe pas encore.</p>
-
-            <h3>IA Superintelligente (ASI - Artificial Super Intelligence)</h3>
-            <p>Une IA qui surpasserait l'intelligence humaine dans tous les domaines. C'est un concept théorique qui soulève des questions éthiques importantes.</p>
+        <section class="article-block image-left">
+            <div class="article-text">
+                <h2>Types d'intelligence artificielle</h2>
+                <h3>IA faible</h3>
+                <p>L'IA faible est conçue pour accomplir une tâche précise. Les assistants vocaux, les moteurs de recommandation et les filtres anti-spam appartiennent à cette catégorie.</p>
+                <h3>IA générale</h3>
+                <p>L'IA générale serait capable de transférer ses connaissances entre plusieurs domaines comme un être humain. Elle reste aujourd'hui un objectif théorique.</p>
+                <h3>IA superintelligente</h3>
+                <p>Ce concept imagine une IA dépassant largement les capacités humaines. Il soulève des questions éthiques, sociales et de sécurité.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=900&q=80" alt="Interface de discussion avec un assistant numérique">
+                <figcaption>Les systèmes conversationnels montrent comment l'IA peut traiter le langage naturel.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Technologies Clés de l'IA</h2>
-            <ul>
-                <li><strong>Machine Learning :</strong> Algorithmes qui apprennent à partir de données</li>
-                <li><strong>Deep Learning :</strong> Réseaux de neurones artificiels inspirés du cerveau humain</li>
-                <li><strong>Natural Language Processing :</strong> Traitement du langage naturel pour comprendre et générer du texte</li>
-                <li><strong>Computer Vision :</strong> Analyse et interprétation d'images et vidéos</li>
-                <li><strong>Robotics :</strong> Intégration de l'IA dans des robots physiques</li>
-            </ul>
+        <section class="article-block">
+            <div class="article-text">
+                <h2>Technologies clés</h2>
+                <ul>
+                    <li><strong>Machine learning :</strong> algorithmes qui apprennent à partir de données.</li>
+                    <li><strong>Deep learning :</strong> réseaux de neurones profonds utilisés pour les images, le texte et la voix.</li>
+                    <li><strong>Traitement du langage naturel :</strong> compréhension et génération de texte.</li>
+                    <li><strong>Vision par ordinateur :</strong> analyse d'images, de vidéos et de scènes visuelles.</li>
+                    <li><strong>Robotique :</strong> intégration de l'IA dans des machines physiques.</li>
+                </ul>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=900&q=80" alt="Robot humanoïde dans un environnement technologique">
+                <figcaption>L'IA combine logiciels, données, capteurs et parfois robots pour agir dans le monde réel.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Applications de l'IA</h2>
-            <h3>Santé</h3>
-            <p>Diagnostic médical, découverte de médicaments, analyse d'images médicales.</p>
-
-            <h3>Transport</h3>
-            <p>Véhicules autonomes, optimisation des trajets, maintenance prédictive.</p>
-
-            <h3>Finance</h3>
-            <p>Détection de fraudes, trading algorithmique, scoring de crédit.</p>
-
-            <h3>Commerce</h3>
-            <p>Recommandations personnalisées, chatbots, analyse de sentiments.</p>
-
-            <h3>Éducation</h3>
-            <p>Apprentissage personnalisé, correction automatique, tuteurs virtuels.</p>
-        </section>
-
-        <section>
-            <h2>Défis et Considérations Éthiques</h2>
-            <ul>
-                <li><strong>Biais algorithmique :</strong> Les IA peuvent perpétuer ou amplifier les biais présents dans les données d'entraînement</li>
-                <li><strong>Emploi :</strong> L'automatisation peut entraîner des pertes d'emplois dans certains secteurs</li>
-                <li><strong>Confidentialité :</strong> L'utilisation massive de données soulève des questions de protection de la vie privée</li>
-                <li><strong>Sécurité :</strong> Les systèmes d'IA peuvent être vulnérables aux attaques</li>
-                <li><strong>Responsabilité :</strong> Qui est responsable des décisions prises par une IA ?</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>L'Avenir de l'IA</h2>
-            <p>L'IA continue d'évoluer rapidement. Les avancées en deep learning, en particulier, ouvrent de nouvelles possibilités. Cependant, il est crucial de développer l'IA de manière responsable, en tenant compte des implications éthiques et sociales.</p>
+        <section class="article-block image-left">
+            <div class="article-text">
+                <h2>Applications et enjeux</h2>
+                <p>L'IA est utilisée dans la santé pour aider au diagnostic, dans le transport pour optimiser les trajets, dans la finance pour repérer les fraudes et dans l'éducation pour personnaliser l'apprentissage.</p>
+                <p>Ses limites doivent aussi être étudiées : biais dans les données, protection de la vie privée, responsabilité des décisions automatisées, sécurité des systèmes et impact sur certains métiers.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=900&q=80" alt="Ampoule et circuits représentant l'innovation">
+                <figcaption>Le développement responsable de l'IA demande autant de réflexion éthique que de compétence technique.</figcaption>
+            </figure>
         </section>
     </main>
+
     <footer>
         <p>&copy; BOUHABS Ahmed, ACHIBANE Ahmed, 2025-2026</p>
         <p>EMSI Agdal-2, 2AP-11</p>

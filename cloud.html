@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,7 @@
             <img src="logo-projet.jpg" alt="Logo Encyclopédie des technologies modernes" width="100" height="100">
             <div>
                 <h1>Cloud Computing</h1>
+                <p>Article de l'Encyclopédie des technologies modernes</p>
             </div>
         </div>
         <nav class="main-nav">
@@ -31,90 +32,66 @@
             <a class="login" href="login.html">Connexion</a>
         </nav>
     </header>
+
     <main>
-        <section>
-            <h2>Qu'est-ce que le Cloud Computing ?</h2>
-            <p>Le Cloud Computing, ou informatique en nuage, est un modèle qui permet l'accès à distance et à la demande à des ressources informatiques partagées. Au lieu d'utiliser des serveurs locaux, les utilisateurs accèdent à des ressources (stockage, puissance de calcul, applications) via Internet.</p>
+        <section class="page-intro">
+            <div>
+                <h2>Définition</h2>
+                <p class="lead">Le cloud computing est un modèle qui permet d'utiliser à distance des ressources informatiques comme le stockage, les serveurs, les bases de données et les logiciels.</p>
+                <p>Au lieu d'acheter et d'entretenir toute l'infrastructure localement, une organisation peut louer des services accessibles par Internet et les adapter à ses besoins.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80" alt="Réseau numérique autour de la Terre">
+                <figcaption>Le cloud repose sur des centres de données reliés par Internet.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Modèles de Service Cloud</h2>
-            <h3>Infrastructure as a Service (IaaS)</h3>
-            <p>Fournit des ressources informatiques de base comme des machines virtuelles, du stockage et des réseaux. Exemples : Amazon EC2, Microsoft Azure VMs.</p>
-
-            <h3>Platform as a Service (PaaS)</h3>
-            <p>Offre une plateforme complète pour développer, tester et déployer des applications sans gérer l'infrastructure sous-jacente. Exemples : Heroku, Google App Engine.</p>
-
-            <h3>Software as a Service (SaaS)</h3>
-            <p>Applications logicielles fournies via Internet, accessibles via un navigateur web. Exemples : Gmail, Office 365, Salesforce.</p>
+        <section class="article-block image-left">
+            <div class="article-text">
+                <h2>Modèles de service</h2>
+                <h3>IaaS</h3>
+                <p>L'Infrastructure as a Service fournit des machines virtuelles, du stockage et du réseau. Elle laisse une grande liberté de configuration.</p>
+                <h3>PaaS</h3>
+                <p>La Platform as a Service propose un environnement prêt pour développer et déployer des applications sans gérer directement les serveurs.</p>
+                <h3>SaaS</h3>
+                <p>Le Software as a Service correspond à des applications complètes accessibles par navigateur, comme des outils de messagerie ou de bureautique.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80" alt="Serveurs dans un centre de données">
+                <figcaption>Les centres de données hébergent les ressources utilisées par les services cloud.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Modèles de Déploiement</h2>
-            <h3>Cloud Public</h3>
-            <p>Services offerts par des fournisseurs tiers via Internet public. Accessible à tous, payant à l'usage.</p>
-
-            <h3>Cloud Privé</h3>
-            <p>Infrastructure dédiée à une seule organisation, hébergée soit sur site soit chez un fournisseur.</p>
-
-            <h3>Cloud Hybride</h3>
-            <p>Combinaison de cloud public et privé, permettant de bénéficier des avantages des deux modèles.</p>
+        <section class="article-block">
+            <div class="article-text">
+                <h2>Avantages</h2>
+                <ul>
+                    <li><strong>Évolutivité :</strong> augmenter ou réduire les ressources selon la demande.</li>
+                    <li><strong>Coût maîtrisé :</strong> payer selon l'utilisation réelle.</li>
+                    <li><strong>Accessibilité :</strong> utiliser les services depuis différents lieux et appareils.</li>
+                    <li><strong>Maintenance :</strong> déléguer une partie de l'administration au fournisseur.</li>
+                    <li><strong>Collaboration :</strong> partager plus facilement documents, données et applications.</li>
+                </ul>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Tableau de bord de données sur un écran">
+                <figcaption>Le cloud facilite le traitement et la visualisation de grandes quantités de données.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Avantages du Cloud Computing</h2>
-            <ul>
-                <li><strong>Évolutivité :</strong> Augmenter ou réduire les ressources selon les besoins</li>
-                <li><strong>Coût :</strong> Modèle pay-as-you-go, pas d'investissement initial important</li>
-                <li><strong>Accessibilité :</strong> Accès aux ressources depuis n'importe où via Internet</li>
-                <li><strong>Maintenance :</strong> Le fournisseur gère la maintenance et les mises à jour</li>
-                <li><strong>Sécurité :</strong> Centres de données hautement sécurisés</li>
-                <li><strong>Collaboration :</strong> Partage facile de fichiers et d'applications</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Principaux Fournisseurs Cloud</h2>
-            <h3>Amazon Web Services (AWS)</h3>
-            <p>Leader du marché avec une offre très complète de services cloud.</p>
-
-            <h3>Microsoft Azure</h3>
-            <p>Plateforme cloud de Microsoft, bien intégrée avec les produits Microsoft.</p>
-
-            <h3>Google Cloud Platform (GCP)</h3>
-            <p>Solutions cloud de Google, fortes en IA et analyse de données.</p>
-
-            <h3>IBM Cloud</h3>
-            <p>Focus sur l'IA, le big data et les solutions d'entreprise.</p>
-        </section>
-
-        <section>
-            <h2>Technologies Clés</h2>
-            <ul>
-                <li><strong>Virtualisation :</strong> Création de ressources virtuelles sur du matériel physique</li>
-                <li><strong>Conteneurs :</strong> Docker, Kubernetes pour l'orchestration</li>
-                <li><strong>Serverless :</strong> Exécution de code sans gérer de serveurs</li>
-                <li><strong>Big Data :</strong> Traitement de grandes quantités de données</li>
-                <li><strong>Edge Computing :</strong> Traitement des données près de la source</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Défis et Considérations</h2>
-            <ul>
-                <li><strong>Sécurité des données :</strong> Protection des données sensibles dans le cloud</li>
-                <li><strong>Conformité :</strong> Respect des réglementations (RGPD, etc.)</li>
-                <li><strong>Dépendance au fournisseur :</strong> Risque de vendor lock-in</li>
-                <li><strong>Latence :</strong> Délais réseau pour les applications sensibles</li>
-                <li><strong>Continuité de service :</strong> Disponibilité garantie par les SLA</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>L'Avenir du Cloud Computing</h2>
-            <p>Le cloud continue d'évoluer avec l'adoption croissante du multi-cloud, de l'edge computing et des technologies serverless. L'intégration avec l'IA et l'IoT ouvre de nouvelles possibilités pour les entreprises et les particuliers.</p>
+        <section class="article-block image-left">
+            <div class="article-text">
+                <h2>Défis et avenir</h2>
+                <p>Le cloud demande une attention particulière à la sécurité des données, à la conformité, à la dépendance au fournisseur, à la disponibilité du service et à la latence réseau.</p>
+                <p>Son évolution actuelle se dirige vers le multi-cloud, le serverless, l'edge computing et une intégration plus forte avec l'IA et l'Internet des objets.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Carte électronique avec connexions lumineuses">
+                <figcaption>L'edge computing rapproche le calcul des appareils et capteurs connectés.</figcaption>
+            </figure>
         </section>
     </main>
+
     <footer>
         <p>&copy; BOUHABS Ahmed, ACHIBANE Ahmed, 2025-2026</p>
         <p>EMSI Agdal-2, 2AP-11</p>

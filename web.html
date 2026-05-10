@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,7 @@
             <img src="logo-projet.jpg" alt="Logo Encyclopédie des technologies modernes" width="100" height="100">
             <div>
                 <h1>Développement Web</h1>
+                <p>Article de l'Encyclopédie des technologies modernes</p>
             </div>
         </div>
         <nav class="main-nav">
@@ -31,139 +32,66 @@
             <a class="login" href="login.html">Connexion</a>
         </nav>
     </header>
+
     <main>
-        <section>
-            <h2>Qu'est-ce que le Développement Web ?</h2>
-            <p>Le développement web consiste à créer des sites web et des applications web. Il englobe la conception, la programmation et la maintenance de sites internet accessibles via des navigateurs web.</p>
+        <section class="page-intro">
+            <div>
+                <h2>Définition</h2>
+                <p class="lead">Le développement web regroupe les méthodes et technologies utilisées pour créer des sites, des applications et des services accessibles depuis un navigateur.</p>
+                <p>Il combine la structure des pages, leur apparence, leur interactivité, la logique serveur, les bases de données et les bonnes pratiques de sécurité.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Écran affichant du code web">
+                <figcaption>Le web moderne associe conception visuelle, programmation et architecture logicielle.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Les Trois Couches du Web</h2>
-            <h3>Côté Client (Frontend)</h3>
-            <p>Interface utilisateur visible dans le navigateur. Technologies : HTML, CSS, JavaScript.</p>
-
-            <h3>Côté Serveur (Backend)</h3>
-            <p>Traitement des données et logique métier. Technologies : PHP, Python, Node.js, Java.</p>
-
-            <h3>Base de Données</h3>
-            <p>Stockage et gestion des données. Technologies : MySQL, PostgreSQL, MongoDB.</p>
+        <section class="article-block image-left">
+            <div class="article-text">
+                <h2>Les trois couches du web</h2>
+                <h3>Frontend</h3>
+                <p>Le frontend correspond à l'interface visible par l'utilisateur. Il utilise principalement HTML, CSS et JavaScript.</p>
+                <h3>Backend</h3>
+                <p>Le backend gère la logique métier, l'authentification, les API et le traitement des données.</p>
+                <h3>Base de données</h3>
+                <p>La base de données stocke les informations nécessaires au fonctionnement du site ou de l'application.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80" alt="Développement logiciel sur plusieurs écrans">
+                <figcaption>Une application web relie interface, serveur et données.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Technologies Frontend</h2>
-            <h3>HTML (HyperText Markup Language)</h3>
-            <p>Structure et contenu des pages web.</p>
-
-            <h3>CSS (Cascading Style Sheets)</h3>
-            <p>Présentation et mise en forme visuelle.</p>
-
-            <h3>JavaScript</h3>
-            <p>Interactivité et dynamisme côté client.</p>
-
-            <h3>Frameworks JavaScript</h3>
-            <ul>
-                <li>React : Bibliothèque pour interfaces utilisateur</li>
-                <li>Vue.js : Framework progressif</li>
-                <li>Angular : Framework complet</li>
-            </ul>
+        <section class="article-block">
+            <div class="article-text">
+                <h2>Technologies importantes</h2>
+                <ul>
+                    <li><strong>HTML :</strong> structure le contenu des pages.</li>
+                    <li><strong>CSS :</strong> définit la mise en forme, les couleurs et les mises en page.</li>
+                    <li><strong>JavaScript :</strong> ajoute de l'interactivité côté navigateur.</li>
+                    <li><strong>PHP, Python, Node.js :</strong> créent la logique côté serveur.</li>
+                    <li><strong>MySQL, PostgreSQL, MongoDB :</strong> stockent et organisent les données.</li>
+                </ul>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80" alt="Code informatique dans un éditeur">
+                <figcaption>Les langages et frameworks permettent de construire des interfaces et des services fiables.</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Technologies Backend</h2>
-            <h3>Langages de Programmation</h3>
-            <ul>
-                <li>PHP : Langage populaire pour le web</li>
-                <li>Python : Avec Django ou Flask</li>
-                <li>JavaScript (Node.js) : JavaScript côté serveur</li>
-                <li>Ruby : Avec Ruby on Rails</li>
-                <li>Java : Avec Spring Boot</li>
-            </ul>
-
-            <h3>Frameworks et Bibliothèques</h3>
-            <ul>
-                <li>Laravel (PHP)</li>
-                <li>Django (Python)</li>
-                <li>Express.js (Node.js)</li>
-                <li>Ruby on Rails (Ruby)</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Bases de Données</h2>
-            <h3>SQL (Structured Query Language)</h3>
-            <ul>
-                <li>MySQL</li>
-                <li>PostgreSQL</li>
-                <li>SQLite</li>
-            </ul>
-
-            <h3>NoSQL</h3>
-            <ul>
-                <li>MongoDB</li>
-                <li>Cassandra</li>
-                <li>Redis</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Outils et Méthodologies</h2>
-            <h3>Contrôle de Version</h3>
-            <p>Git et GitHub pour la gestion du code source.</p>
-
-            <h3>Gestion de Projet</h3>
-            <p>Agile, Scrum, Kanban pour l'organisation du développement.</p>
-
-            <h3>Outils de Développement</h3>
-            <ul>
-                <li>Éditeurs : VS Code, Sublime Text</li>
-                <li>Navigateurs : Chrome DevTools</li>
-                <li>Tests : Jest, Selenium</li>
-                <li>Build : Webpack, Babel</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Types d'Applications Web</h2>
-            <h3>Sites Web Statiques</h3>
-            <p>Pages HTML/CSS/JS sans traitement côté serveur.</p>
-
-            <h3>Applications Web Dynamiques</h3>
-            <p>Contenu généré dynamiquement par le serveur.</p>
-
-            <h3>Single Page Applications (SPA)</h3>
-            <p>Applications qui se chargent une seule fois et mettent à jour le contenu dynamiquement.</p>
-
-            <h3>Progressive Web Apps (PWA)</h3>
-            <p>Applications web qui offrent une expérience similaire aux applications natives.</p>
-        </section>
-
-        <section>
-            <h2>Sécurité Web</h2>
-            <ul>
-                <li><strong>HTTPS :</strong> Chiffrement des communications</li>
-                <li><strong>Validation des entrées :</strong> Prévention des injections</li>
-                <li><strong>Authentification :</strong> Gestion sécurisée des utilisateurs</li>
-                <li><strong>CORS :</strong> Contrôle des requêtes cross-origin</li>
-                <li><strong>OWASP :</strong> Bonnes pratiques de sécurité</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Tendances Actuelles</h2>
-            <ul>
-                <li>JAMstack : JavaScript, APIs, Markup</li>
-                <li>Serverless : Fonctions sans serveur</li>
-                <li>WebAssembly : Code binaire dans le navigateur</li>
-                <li>Web Components : Composants réutilisables</li>
-                <li>API-first : Conception centrée sur les APIs</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>L'Avenir du Développement Web</h2>
-            <p>Le web continue d'évoluer avec l'amélioration des performances, de l'accessibilité et de l'expérience utilisateur. L'intégration avec l'IA, la réalité virtuelle et l'IoT ouvre de nouvelles perspectives pour les développeurs web.</p>
+        <section class="article-block image-left">
+            <div class="article-text">
+                <h2>Sécurité et tendances</h2>
+                <p>Un site web doit protéger les données, valider les entrées, utiliser HTTPS, contrôler les accès et suivre les recommandations de sécurité comme celles de l'OWASP.</p>
+                <p>Les tendances actuelles incluent les Progressive Web Apps, le serverless, les API-first, les composants web, l'accessibilité et l'intégration de l'IA dans les outils de développement.</p>
+            </div>
+            <figure class="side-image">
+                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=900&q=80" alt="Interface de cybersécurité sur un ordinateur">
+                <figcaption>La sécurité est une partie centrale de la qualité d'une application web.</figcaption>
+            </figure>
         </section>
     </main>
+
     <footer>
         <p>&copy; BOUHABS Ahmed, ACHIBANE Ahmed, 2025-2026</p>
         <p>EMSI Agdal-2, 2AP-11</p>
