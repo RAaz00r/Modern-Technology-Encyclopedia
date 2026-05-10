@@ -56,22 +56,18 @@ header {
 
 nav,
 .menu,
-.menu-login {
+.menulogin {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-left: 0;
 }
 
 .menu {
     margin-left: auto;
 }
 
-.menu-login {
-    margin-left: 0;
-}
-
-nav a,
-nav summary {
+nav a, nav summary {
     color: #006b35;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
@@ -79,8 +75,7 @@ nav summary {
     text-decoration: none;
 }
 
-nav a:hover,
-nav summary:hover {
+nav a:hover, nav summary:hover {
     color: #004f2a;
     text-decoration: underline;
 }
@@ -93,7 +88,7 @@ nav details summary {
     list-style: none;
 }
 
-nav .sous-menu {
+nav .submenu {
     display: none;
     position: absolute;
     top: 30px;
@@ -106,7 +101,7 @@ nav .sous-menu {
     z-index: 30;
 }
 
-nav details[open] .sous-menu {
+nav details[open] .submenu {
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -119,11 +114,7 @@ main {
     padding: 30px 0 42px;
 }
 
-.intro,
-.bloc,
-.liste-articles,
-.tableau-comparaison,
-.zone-formulaire {
+.intro,.bloc,.listearticles,.tabcomparaison,.zoneform {
     background: #ffffff;
     border: 1px solid #b7d8c3;
 }
@@ -138,8 +129,7 @@ main {
     border-top: 6px solid #00843d;
 }
 
-.intro h2,
-.bloc h2 {
+.intro h2,.bloc h2 {
     margin: 0 0 12px;
     padding-bottom: 8px;
     border-bottom: 2px solid #00843d;
@@ -147,8 +137,7 @@ main {
     line-height: 1.2;
 }
 
-.intro p,
-.bloc p {
+.intro p,.bloc p {
     margin: 0 0 14px;
 }
 
@@ -157,20 +146,18 @@ main {
     font-size: 1.08rem;
 }
 
-.image-article {
+.imagearticle {
     margin: 0;
     background: #eef8f1;
     border: 1px solid #b7d8c3;
     padding: 8px;
 }
 
-.image-article img {
+.imagearticle img {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
 }
 
-.image-article figcaption {
+.imagearticle figcaption {
     margin-top: 8px;
     color: #2f6b4f;
     font-family: Arial, Helvetica, sans-serif;
@@ -187,15 +174,15 @@ main {
     margin: 18px 0;
 }
 
-.bloc.image-gauche {
+.bloc.imagegauche {
     grid-template-columns: 1fr 2fr;
 }
 
-.bloc.image-gauche .texte {
+.bloc.imagegauche .texte {
     order: 2;
 }
 
-.bloc.image-gauche .image-article {
+.bloc.imagegauche .imagearticle {
     order: 1;
 }
 
@@ -208,7 +195,7 @@ main {
     margin-bottom: 8px;
 }
 
-.liste-articles {
+.listearticles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 18px;
@@ -224,8 +211,6 @@ main {
 
 .carte img {
     width: 100%;
-    height: 170px;
-    object-fit: cover;
 }
 
 .carte div {
@@ -252,26 +237,25 @@ main {
     text-decoration: underline;
 }
 
-.tableau-comparaison {
+.tabcomparaison {
     width: 100%;
     border-collapse: collapse;
     margin: 18px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.tableau-comparaison th,
-.tableau-comparaison td {
+.tabcomparaison th,.tabcomparaison td {
     padding: 14px;
     border: 1px solid #b7d8c3;
     vertical-align: top;
 }
 
-.tableau-comparaison th {
+.tabcomparaison th {
     background: #e1f2e7;
     text-align: left;
 }
 
-.zone-formulaire {
+.zoneform {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 28px;
@@ -289,18 +273,14 @@ label {
     font-weight: 700;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
+input[type="text"],input[type="email"],input[type="password"] {
     width: 100%;
     padding: 12px;
     border: 1px solid #8fc29f;
     font-size: 1rem;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus {
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus {
     border-color: #00843d;
     box-shadow: 0 0 0 3px rgba(0, 132, 61, 0.16);
     outline: none;
@@ -350,24 +330,24 @@ footer p {
     }
 
     .menu,
-    .menu-login {
+    .menulogin {
         width: 100%;
         margin-left: 0;
     }
 
     .intro,
     .bloc,
-    .bloc.image-gauche,
-    .zone-formulaire {
+    .bloc.imagegauche,
+    .zoneform {
         grid-template-columns: 1fr;
     }
 
-    .bloc.image-gauche .texte,
-    .bloc.image-gauche .image-article {
+    .bloc.imagegauche .texte,
+    .bloc.imagegauche .imagearticle {
         order: initial;
     }
 
-    .liste-articles {
+    .listearticles {
         grid-template-columns: 1fr;
     }
 }
