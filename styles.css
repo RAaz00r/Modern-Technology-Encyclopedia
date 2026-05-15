@@ -342,10 +342,6 @@ footer p {
         grid-template-columns: 1fr;
     }
 
-    .bloc.imagegauche .texte,
-    .bloc.imagegauche .imagearticle {
-        order: initial;
-    }
 
     .listearticles {
         grid-template-columns: 1fr;

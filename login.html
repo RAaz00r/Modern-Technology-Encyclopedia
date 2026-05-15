@@ -6,11 +6,14 @@
     <title>Connexion - Encyclopédie des technologies modernes</title>
     <link rel="icon" href="logo-projet.jpg" type="image/jpeg">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="logo-projet.jpg" alt="Logo Encyclopédie des technologies modernes" width="100" height="100">
+            <a href="index.html">
+                <img src="logo-projet.jpg" alt="Logo Encyclopédie des technologies modernes" width="100" height="100">
+            </a>
             <div>
                 <h1>Connexion</h1>
                 <p>Accéder à l'Encyclopédie des technologies modernes</p>
@@ -43,7 +46,7 @@
                 <label for="password">Mot de passe :</label>
                 <input type="password" id="password" name="password" required>
 
-                <input type="submit" value="Se connecter">
+                <input type="submit" value="Se connecter" id="submit">
                 <a href="register.html">Pas de compte ? Inscrivez-vous.</a>
             </form>
 
