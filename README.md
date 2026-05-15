@@ -12,3 +12,7 @@ DAY 4 - Call to make the CSS
 DAY 5 - Applied some teach critics (menu dropdown)
 
 DAY 6 - made it EMSI colored
+
+DAY 7 - added comments in CSS to make it easy going thru everything.
+
+DAY 8 - rendu les mots clés des liens + abbreviations + debut de présentation

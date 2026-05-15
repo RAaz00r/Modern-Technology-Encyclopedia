@@ -1,3 +1,4 @@
+/*general*/
 * {
     box-sizing: border-box;
 }
@@ -26,7 +27,8 @@ header {
     box-shadow: 0 1px 5px rgba(0, 82, 46, 0.12);
     z-index: 20;
 }
-
+/*---------------------*/
+/*Logo*/
 .logo {
     display: flex;
     align-items: center;
@@ -53,7 +55,8 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.95rem;
 }
-
+/*---------------------*/
+/*Nav + les anchors*/
 nav,
 .menu,
 .menulogin {
@@ -107,6 +110,56 @@ nav details[open] .submenu {
     gap: 6px;
 }
 
+.intro a {
+    color: #006b35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    color: #004f2a;
+    text-decoration: underline;
+}
+
+.resume a {
+    color: #006b35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    color: #004f2a;
+    text-decoration: underline;
+}
+
+td a {
+    color: #006b35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: #004f2a;
+    text-decoration: underline;
+}
+
+
+.texte a {
+    color: #006b35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.texte a:hover {
+    color: #004f2a;
+    text-decoration: underline;
+}
+/*---------------------*/
+/*Main + les sections*/
 main {
     width: 90%;
     max-width: 1120px;
@@ -236,7 +289,8 @@ main {
     color: #004f2a;
     text-decoration: underline;
 }
-
+/*---------ne pas toucher stp----------*/
+/*tableau*/
 .tabcomparaison {
     width: 100%;
     border-collapse: collapse;
@@ -262,7 +316,8 @@ main {
     align-items: center;
     padding: 28px;
 }
-
+/*-----------------*/
+/*Formulaire*/
 form {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -305,7 +360,7 @@ form a {
     margin-top: 12px;
     color: #006b35;
 }
-
+/*------------*/
 footer {
     padding: 22px 5vw;
     color: #ffffff;
