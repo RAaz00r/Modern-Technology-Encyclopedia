@@ -5,7 +5,7 @@ DAY 1 - First Prototype that is Solely based off of HTML. Teacher gave us a few 
 
 DAY 2 - Edited the images and text layout
 
-DAY 3 - Started applying images from unsplash.com
+DAY 3 - Started applying images
 
 DAY 4 - Call to make the CSS
 
@@ -16,3 +16,5 @@ DAY 6 - made it EMSI colored
 DAY 7 - added comments in CSS to make it easy going thru everything.
 
 DAY 8 - rendu les mots clés des liens + abbreviations + debut de présentation
+
+DAY 9- Final touches + small little abbreviations + recheck of the CSS + fin de creation de presentation
